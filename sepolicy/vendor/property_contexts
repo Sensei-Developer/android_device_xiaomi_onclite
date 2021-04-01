@@ -8,6 +8,9 @@ persist.camera.            u:object_r:camera_prop:s0
 persist.vendor.camera.     u:object_r:camera_prop:s0
 persist.vendor.vidhance.   u:object_r:camera_prop:s0
 
+# Dirac
+persist.audio.dirac.                    u:object_r:dirac_prop:s0
+
 # Fingerprint
 sys.fp.goodix              u:object_r:vendor_fp_prop:s0
 sys.fp.vendor              u:object_r:vendor_fp_prop:s0
