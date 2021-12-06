@@ -127,6 +127,11 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
     vendor.qti.hardware.camera.device@1.0
 
+# Codec2 modules
+PRODUCT_PACKAGES += \
+    com.android.media.swcodec \
+    libsfplugin_ccodec
+
 # Component overrides
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml
@@ -304,6 +309,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
    libavservices_minijail.vendor
 
+# Media / StagefrightCodec 2.0
+PRODUCT_PACKAGES += \
+    libstagefright_ccodec
+    
 # Netutils
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \
