@@ -48,6 +48,9 @@ persist.dbg.wfc_avail_ovr=1
 # Keystore
 ro.hardware.keystore_desede=true
 
+# Other
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
