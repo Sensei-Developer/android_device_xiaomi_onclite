@@ -175,6 +175,10 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_sdm632
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sdm632
+
 # Treble
 BOARD_VNDK_VERSION := current
 PRODUCT_VENDOR_MOVE_ENABLED := true
