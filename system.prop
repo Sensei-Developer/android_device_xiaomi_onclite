@@ -18,9 +18,6 @@ vidc.enc.dcvs.extra-buff-count=2
 ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
-# FUSE passthrough
-persist.sys.fuse.passthrough.enable=true
-
 # CnE
 persist.vendor.cne.feature=1
 
