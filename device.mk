@@ -321,6 +321,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.sys.thermal.data.path=/data/vendor/thermal/
+    
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor
