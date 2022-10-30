@@ -80,6 +80,7 @@ vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # Volume steps
 ro.config.media_vol_steps=30
+ro.config.vc_call_vol_steps=11
 
 # Telephony
 # Disable handling audio direction changes on IMS calls.
