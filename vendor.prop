@@ -67,6 +67,7 @@ persist.dbg.wfc_avail_ovr=1
 ro.hardware.keystore_desede=true
 
 # Other
+debug.sf.disable_client_composition_cache=1
 sys.fflag.override.settings_enable_monitor_phantom_procs=false
 debug.sf.enable_transaction_tracing=false
 debug.sf.early.app.duration=20000000
@@ -76,7 +77,7 @@ debug.sf.earlyGl.sf.duration=27600000
 debug.sf.hwc.min.duration=23000000
 debug.sf.late.app.duration=20000000
 debug.sf.late.sf.duration=27600000
-debug.sf.use_phase_offsets_as_durations=1 
+debug.sf.use_phase_offsets_as_durations=1
 
 # Media
 debug.stagefright.omx_default_rank.sw-audio=1
