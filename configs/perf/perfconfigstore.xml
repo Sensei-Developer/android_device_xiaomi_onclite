@@ -67,7 +67,7 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="32"  Variant="bengal_32" />
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="6"  Variant="bengal_32" />
                 <Prop Name="ro.lmk.kill_heaviest_task_dup"    Value="false" Variant="bengal_32" />
-                <Prop Name="vendor.iop.enable_uxe"               Value="0"  Variant="bengal_32" />
+                <Prop Name="vendor.iop.enable_uxe"               Value="1"  Variant="bengal_32" />
                 <Prop Name="ro.lmk.enable_preferred_apps"     Value="false" Variant="bengal_32"/>
                 <Prop Name="ro.lmk.psi_window_size_ms"          Value="500" Variant="bengal_32"/>
                 <Prop Name="ro.lmk.psi_poll_period_scrit_ms"    Value="100" Variant="bengal_32"/>
@@ -77,7 +77,7 @@ property Name is called. -->
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="6"  Variant="bengal_32go" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit" Value="32"  Variant="bengal_32go" />
                 <Prop Name="ro.lmk.kill_heaviest_task_dup" Value="false"    Variant="bengal_32go" />
-                <Prop Name="vendor.iop.enable_uxe"             Value="0"    Variant="bengal_32go" />
+                <Prop Name="vendor.iop.enable_uxe"             Value="1"    Variant="bengal_32go" />
                 <Prop Name="ro.lmk.enable_preferred_apps"    Value="false"  Variant="bengal_32go"/>
                 <Prop Name="ro.lmk.psi_window_size_ms"         Value="500"  Variant="bengal_32go"/>
                 <Prop Name="ro.lmk.psi_poll_period_scrit_ms"   Value="100"  Variant="bengal_32go"/>
@@ -89,7 +89,7 @@ property Name is called. -->
                 <Prop Name="ro.lmk.psi_window_size_ms"           Value="500"   Target="khaje" Ram="3" />
                 <Prop Name="ro.lmk.psi_poll_period_scrit_ms"     Value="100"   Target="khaje" Ram="3" />
                 <Prop Name="ro.lmk.psi_scrit_complete_stall_ms"  Value="85"    Target="khaje" Ram="3" />
-                <Prop Name="vendor.iop.enable_uxe"               Value="0"     Target="khaje" Ram="3" />
+                <Prop Name="vendor.iop.enable_uxe"               Value="1"     Target="khaje" Ram="3" />
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_limit" Value="6"     Target="khaje" Ram="3" />
                 <Prop Name="ro.vendor.qti.sys.fw.bservice_age"   Value="120000"  Target="khaje" Ram="3" />
                 <Prop Name="ro.vendor.qti.sys.fw.bg_apps_limit"  Value="48"    Target="khaje" Ram="3" />
