@@ -53,6 +53,9 @@ rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
+# Service reschedule
+persist.sys.am.reschedule_service=true
+
 # WFD
 persist.debug.wfd.enable=1
 
