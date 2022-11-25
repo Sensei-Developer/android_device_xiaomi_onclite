@@ -27,7 +27,6 @@ PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
-EXODUS_MAINTAINER := melles1991 & Sensei-Developer
 
 # Fingerprint
 BUILD_FINGERPRINT := xiaomi/onc/onc:10/QKQ1.191008.001/V12.5.3.0.QFLCNXM:user/release-keys
